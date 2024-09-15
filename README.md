@@ -22,4 +22,8 @@ The Titanic dataset contains demographic and travel-related information for pass
 ## Approach:
 1. **Identify Missing Values**:  
    Missing values are present in the `Age`, `Cabin`, and `Embarked` columns. We'll impute the missing data using appropriate strategies:
-   - **Numerical Columns**: Use the median (e.g., for `Age
+   - **Numerical Columns**: Use the median (e.g., for `Age`).
+   - **Categorical Columns**: Use the most frequent value (e.g., for `Embarked`).
+
+2. **Understand the Data Distributions**:  
+   Visualize key variables like `Age`, `Fare`, `Pclass`, and their correlation with `Survived` to understand their impact on the target variable.
